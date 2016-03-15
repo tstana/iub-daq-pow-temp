@@ -1,0 +1,16 @@
+To work with the template:
+
+1. Copy to location of choice
+2. Run the 'getstarted' script, which will:
+- ask you for the file names (you give it <fname>, NO extensions, please)
+- ask you for the document title
+- change doc.* to <fname>.*
+- add <fname> to the appropriate location in the Makefile
+- change the <fname>.tex file to include <fname>.bib as bibliography
+- change the title in cern-title.tex
+3. Delete the 'getstarted' script
+4. Write your documentation
+5. Type 'make' to create your .pdf documentation file.
+
+NOTE: You need Inkscape to generate .pdf files for the figures:
+sudo apt-get install inkscape
